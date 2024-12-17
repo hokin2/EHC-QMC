@@ -1,0 +1,20 @@
+10,10
+1,20,80
+5,100,100,10
+1,2
+0,0
+10000
+0
+5,1000,1000
+
+read(10,*) nx, ny
+read(10,*) jjz, hhz, beta
+read(10,*) nbins, mstep, istep, ndis
+read(10,*) ensemble, qmax
+! for ensemble 2
+read(10,*) nxsub, nysub
+! for memory in hash
+read(10,*) mem_state
+! for mapping to excited state or not (1=do)
+read(10,*) map
+read(10,*) nbins_map, mstep_map, istep_map
